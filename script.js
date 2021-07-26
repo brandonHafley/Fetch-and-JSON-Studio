@@ -1,4 +1,5 @@
 window.addEventListener("load", () => {
+
     fetch("https://handlers.education.launchcode.org/static/astronauts.json")
         .then(response => {
             response.json()
